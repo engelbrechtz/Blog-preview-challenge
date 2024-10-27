@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+:root{
+    --yellow: hsl(47, 88%, 63%);
+    --white: hsl(0, 0%, 100%);
+    --gray-500: hsl(0, 0%, 42%);
+    --gray-950: hsl(0, 0%, 7%);
+}
+
+body{
+    background: var(--yellow);
+    font-family: "Figtree", sans-serif;
+
+}
+
+.card_wrapper_component{
+    background: var(--white);
+    max-width: 300px;
+    height: 400px;
+    position: relative;
+    margin: auto;
+    top: 120px;
+    border-radius: 10px;
+    border: 1.5px solid black;
+    overflow: hidden;
+    box-shadow: 5px 5px 0px 0px black;
+}
+
+.card_wrapper_component .card_header{
+    position: relative;
+    top: 15px;
+}
+.card_wrapper_component .card_header .card_header_image{
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+.card_wrapper_component .card_header .card_header_image img{
+    margin: auto;
+    height: 10em;
+    border-radius: 10px;
+    overflow: hidden;
+    -webkit-user-drag: none ;
+}
+
+.card_wrapper_component .card_header .card_header_content{
+    
+}
+.card_wrapper_component .card_header .card_header_content hgroup{
+    
+}
+.card_wrapper_component .card_header .card_header_content .card_header_details{
+    position: relative;
+    font-size: 12px;
+    margin: auto;
+    width: 23em;
+    top: 40px;
+}
+
+.card_wrapper_component .card_header .card_header_content hgroup label{
+    background: var(--yellow);
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+    left: 15px;
+    top: 14px;
+}
+.card_wrapper_component .card_header .card_header_content hgroup .card_date{
+    position: relative;
+    font-size: 12px;
+    left: 15px;
+    top: 30px;
+}
+
+.card_wrapper_component .card_footer{
+    position:relative;
+    top: 90px;
+    display: flex;
+}
+.card_wrapper_component .card_footer .user_profile img{
+    -webkit-user-drag: none ;
+    height: 30px;
+    margin-left: 10px;
+}
+.card_wrapper_component .card_footer .user_profile{
+    display: flex;
+    text-align: center;
+}
+.card_wrapper_component .card_footer .user_profile h6{
+    margin: 9px 0px 0px 5px;
+    font-weight: bold;
+}
+
